@@ -22,6 +22,8 @@
     "@storybook/vue3": "^6.5.10",
     "@vitejs/plugin-vue": "^3.0.1",
     "babel-loader": "^8.2.5",
+    "sass": "^1.54.5",
+    "sass-loader": "^13.0.2",
     "vite": "^3.0.4",
     "vue-loader": "^16.8.3"
   }
