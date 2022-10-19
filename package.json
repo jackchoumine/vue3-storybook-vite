@@ -9,11 +9,14 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@quasar/extras": "^1.15.5",
     "element-plus": "^2.2.18",
+    "quasar": "^2.10.0",
     "vue": "^3.2.41"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
+    "@quasar/vite-plugin": "^1.2.3",
     "@storybook/addon-actions": "^6.5.10",
     "@storybook/addon-essentials": "^6.5.10",
     "@storybook/addon-interactions": "^6.5.10",
@@ -22,6 +25,7 @@
     "@storybook/testing-library": "^0.0.13",
     "@storybook/vue3": "^6.5.10",
     "@vitejs/plugin-vue": "^3.1.2",
+    "@vue/compiler-sfc": "^3.2.41",
     "babel-loader": "^8.2.5",
     "sass": "^1.55.0",
     "sass-loader": "^13.1.0",

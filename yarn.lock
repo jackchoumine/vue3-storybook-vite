@@ -1580,6 +1580,16 @@
   "resolved" "https://registry.npmjs.org/@sxzz/popperjs-es/-/popperjs-es-2.11.7.tgz"
   "version" "2.11.7"
 
+"@quasar/extras@^1.15.5":
+  "integrity" "sha512-JzKKx5/eKAip3X3bZUEJOOWT9NudqjF01gcce6rtyviko49OU4r+ekyJU3QQIKF8ZqnjZ+DpsVpMWBBZnO6hSQ=="
+  "resolved" "https://registry.npmjs.org/@quasar/extras/-/extras-1.15.5.tgz"
+  "version" "1.15.5"
+
+"@quasar/vite-plugin@^1.2.3":
+  "integrity" "sha512-ErSyY3cHz40GBIQUmqSI8OzzshJM5pLq33Yq3NEtYdWYh1NuIc4C766xkatUdxvhX9sLNnQQZax2ysJ5u7kUJA=="
+  "resolved" "https://registry.npmjs.org/@quasar/vite-plugin/-/vite-plugin-1.2.3.tgz"
+  "version" "1.2.3"
+
 "@rollup/pluginutils@^4.2.1":
   "integrity" "sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ=="
   "resolved" "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-4.2.1.tgz"
@@ -2744,7 +2754,7 @@
     "magic-string" "^0.26.2"
     "react-refresh" "^0.14.0"
 
-"@vitejs/plugin-vue@^3.1.2":
+"@vitejs/plugin-vue@^2.0.0 || ^3.0.0", "@vitejs/plugin-vue@^3.1.2":
   "integrity" "sha512-3zxKNlvA3oNaKDYX0NBclgxTQ1xaFdL7PzwF6zj9tGFziKwmBa3Q/6XcJQxudlT81WxDjEhHmevvIC4Orc1LhQ=="
   "resolved" "https://registry.npmjs.org/@vitejs/plugin-vue/-/plugin-vue-3.1.2.tgz"
   "version" "3.1.2"
@@ -2785,7 +2795,7 @@
     "@vue/compiler-core" "3.2.41"
     "@vue/shared" "3.2.41"
 
-"@vue/compiler-sfc@^3.0.0", "@vue/compiler-sfc@^3.2.0", "@vue/compiler-sfc@3.2.41":
+"@vue/compiler-sfc@^3.0.0", "@vue/compiler-sfc@^3.2.0", "@vue/compiler-sfc@^3.2.41", "@vue/compiler-sfc@3.2.41":
   "integrity" "sha512-+1P2m5kxOeaxVmJNXnBskAn3BenbTmbxBxWOtBq3mQTCokIreuMULFantBUclP0+KnzNCMOvcnKinqQZmiOF8w=="
   "resolved" "https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.2.41.tgz"
   "version" "3.2.41"
@@ -8784,6 +8794,11 @@
   dependencies:
     "side-channel" "^1.0.4"
 
+"quasar@^2.10.0", "quasar@^2.8.0":
+  "integrity" "sha512-PHGcrzPQfFa4tv9a5Z/3D2uat48D4WC9Ad/imzHk/k3G41t0eFMH6glCjAvpCWF2q8dBYIg4nEchiPhlujbKsw=="
+  "resolved" "https://registry.npmjs.org/quasar/-/quasar-2.10.0.tgz"
+  "version" "2.10.0"
+
 "querystring-es3@^0.2.0":
   "integrity" "sha512-773xhDQnZBMFobEiztv8LIl70ch5MSF/jUQVlhwFyBILqq96anmoctVIYz+ZRp0qbCKATTn6ev02M3r7Ga5vqA=="
   "resolved" "https://registry.npmjs.org/querystring-es3/-/querystring-es3-0.2.1.tgz"
@@ -10643,7 +10658,7 @@
     "unist-util-stringify-position" "^2.0.0"
     "vfile-message" "^2.0.0"
 
-"vite@^3.0.0", "vite@^3.1.8", "vite@>= 3.0.0", "vite@>2.0.0-0":
+"vite@^2.0.0 || ^3.0.0", "vite@^3.0.0", "vite@^3.1.8", "vite@>= 3.0.0", "vite@>2.0.0-0":
   "integrity" "sha512-m7jJe3nufUbuOfotkntGFupinL/fmuTNuQmiVE7cH2IZMuf4UbfbGYMUT3jVWgGYuRVLY9j8NnrRqgw5rr5QTg=="
   "resolved" "https://registry.npmjs.org/vite/-/vite-3.1.8.tgz"
   "version" "3.1.8"

@@ -2,8 +2,8 @@
 defineProps({
   msg: {
     type: String,
-    required: true
-  }
+    required: true,
+  },
 })
 </script>
 
@@ -15,6 +15,16 @@ defineProps({
       <a target="_blank" href="https://vitejs.dev/">Vite</a> +
       <a target="_blank" href="https://vuejs.org/">Vue 3</a>.
     </h3>
+    <div class="q-pa-md q-gutter-sm">
+      <q-btn color="white" text-color="black" label="Standard" />
+      <q-btn color="primary" label="Primary" />
+      <q-btn color="secondary" label="Secondary" />
+      <q-btn color="amber" glossy label="Amber" />
+      <q-btn color="brown-5" label="Brown 5" />
+      <q-btn color="deep-orange" glossy label="Deep Orange" />
+      <q-btn color="purple" label="Purple" />
+      <q-btn color="black" label="Black" />
+    </div>
   </div>
 </template>
 
