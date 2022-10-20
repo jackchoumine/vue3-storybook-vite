@@ -13,3 +13,7 @@ yarn
 ```sh
 yarn storybook
 ```
+
+## 参考
+
+[Getting started with Storybook in Vue 3](https://blog.logrocket.com/getting-started-storybook-vue-3/)
