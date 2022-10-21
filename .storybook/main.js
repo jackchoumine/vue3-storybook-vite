@@ -2,7 +2,7 @@
  * @Date        : 2022-10-19 15:13:08
  * @Author      : ZhouQijun
  * @LastEditors : ZhouQijun
- * @LastEditTime: 2022-10-21 11:36:11
+ * @LastEditTime: 2022-10-21 11:59:04
  * @Description :
  */
 module.exports = {
@@ -15,7 +15,7 @@ module.exports = {
   framework: '@storybook/vue3',
   core: {
     //NOTE 打包时遇到错误
-    // "builder": "@storybook/builder-vite"
+    // builder: '@storybook/builder-vite',
     builder: 'webpack5',
   },
   features: {

@@ -18,6 +18,8 @@ yarn storybook
 
 > build-storybook error: The 'compilation' argument must be an instance of Compilation
 
+两种解决方案
+
 升级打包工具：
 
 ```sh
@@ -35,6 +37,14 @@ npm install @storybook/builder-webpack5 @storybook/manager-webpack5 --save-dev
 ```
 
 [问题详情](https://github.com/storybookjs/storybook/issues/17014#issuecomment-1256904918)
+
+或者升级 storybook
+
+```sh
+npx storybook@latest upgrade
+```
+
+不修改`./storybook/main.js`
 
 ## 参考
 
