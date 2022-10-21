@@ -2,11 +2,12 @@
  * @Date        : 2022-10-19 15:13:08
  * @Author      : ZhouQijun
  * @LastEditors : ZhouQijun
- * @LastEditTime: 2022-10-19 17:55:50
+ * @LastEditTime: 2022-10-21 10:59:50
  * @Description : 项目入口
  */
 import { createApp } from 'vue'
 import App from './App.vue'
+import './assets/main.css'
 
 import { Quasar } from 'quasar'
 import quasarLang from 'quasar/lang/zh-CN'
@@ -14,8 +15,6 @@ import quasarLang from 'quasar/lang/zh-CN'
 import 'quasar/dist/quasar.css'
 // Import icon libraries
 import '@quasar/extras/material-icons/material-icons.css'
-
-import './assets/main.css'
 
 const app = createApp(App)
 
